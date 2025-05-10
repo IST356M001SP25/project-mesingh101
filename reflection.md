@@ -23,3 +23,10 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+Working on this NBA stats comparison app helped me grow in multiple areas—especially API integration, error handling, and building interactive user interfaces with Streamlit. The project required pulling season average stats from the BallDon'tLie API, transforming that data into clean DataFrames, and visualizing it with Plotly. Setting up that full pipeline taught me how to manage real-world data sources and build a meaningful user experience around them.
+
+One of the biggest challenges I faced was dealing with limited API access. Initially, I kept running into errors when trying to retrieve season average data—specifically getting 401 Unauthorized or incomplete responses. After some debugging and reviewing the API documentation, I realized that some endpoints, like season_averages, weren’t accessible on the free tier. To move forward, I purchased an account upgrade, which unlocked the functionality I needed to continue building and testing my app. This taught me how third-party APIs are tiered and how important it is to understand access limitations early on.
+
+Even after upgrading, there were still some inconsistencies in available data for certain players or seasons. That required building in UI messages to let users know when results couldn't be retrieved and handling empty responses gracefully.
+
+Overall, this project strengthened my confidence with APIs, especially when it comes to authentication, pagination, and parsing JSON data. I also got better at debugging and reading error messages. If I were to keep improving the app, I’d add caching for player data, allow users to export comparisons, and maybe even incorporate advanced stats for deeper analysis.
